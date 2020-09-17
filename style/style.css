@@ -50,10 +50,18 @@ ul.navbar-nav {
 .container{
     overflow: auto;
     max-height: 793px;
+    height: 793px;
 }
 
 .row{
     flex-direction: column;
+}
+
+.col-error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
 }
 
 .dropdown-divider {
@@ -71,7 +79,7 @@ ul.navbar-nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1{
+h1, h3, h5{
     font-weight: bold;
 }
 
@@ -104,20 +112,30 @@ h1{
     font-weight: bolder;
 }
 
-.text-custome-import {
+.text-custome-important {
     color: #590bb2;
     font-weight: bolder;
     margin: auto;
     font-size: x-large;
     font-family: 'Open Sans', sans-serif;
+    width: max-content;
 }
 
-.text-container>div {
+.underline{
+    text-decoration:underline
+}
+
+.list, .list-xl{
     margin: 3% 5%;
 }
 
-ul {
+.list ul {
     width: 25%;
+}
+
+
+.img-xl{
+    width: 100%;;
 }
 
 .footer{
