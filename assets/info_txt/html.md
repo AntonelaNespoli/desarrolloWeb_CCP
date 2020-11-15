@@ -78,7 +78,7 @@ Si quisiéramos agregar un párrafo además del título podríamos tener algo as
 Si abrimos el archivo en el navegador, debería verse algo así:
 
 ># Hola
-Bienvenidas a chicas programadoras, esto es un club donde aprenderemos a programar!
+>Bienvenidas a chicas programadoras, esto es un club donde aprenderemos a programar!
 
 ### Etiquetas de HTML: *Listas*
 
@@ -88,8 +88,8 @@ Hay dos tipos de listas:
 Son las que enumeran los diferentes puntos de la lista de forma ordenada y se ven así:
 
 >1. Poner agua a hervir
-2. Agregar arroz
-3. Esperar 15 minutos
+>2. Agregar arroz
+>3. Esperar 15 minutos
 
 Para generar una lista ordenada, el código es el siguiente:
 
